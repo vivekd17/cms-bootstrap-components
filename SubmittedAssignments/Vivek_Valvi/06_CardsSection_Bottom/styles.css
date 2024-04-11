@@ -1,0 +1,29 @@
+.mb-5{
+    color:#FFC470;
+    font-size: 50px;
+    transition: color 0.3s ease;
+    background: #4793AF;
+    padding: 2%;
+}
+.card img{
+    height: 620px;
+}
+.card-body {
+    opacity: 0;
+    visibility: hidden;
+    display: none;
+    margin-bottom: -35%;
+}
+
+.card:hover .card-body {
+    opacity: 1;
+    display: block;
+    color: #7BC9FF;
+    visibility: visible;
+    background-color: #1d16788a; /* Set your desired background color */
+    transform: translateY(-100%);
+    transition: opacity 0.8s ease, visibility 0.3s ease;
+}
+.card:hover p{
+    color: white;
+}
