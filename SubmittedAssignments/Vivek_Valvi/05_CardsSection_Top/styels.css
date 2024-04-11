@@ -1,0 +1,53 @@
+.card {
+    width: auto;
+    height: 750px;
+    cursor: pointer;
+}
+
+.card:hover {
+    box-shadow: 0 8px 10px 0px var(--bs-grey);
+}
+
+.card:is(:hover, :focus) {
+    transform: scale(1.1);
+    background-color: cornflowerblue;
+}
+
+.card:hover .card-title {
+    color: rgb(255, 255, 255);
+}
+
+.card:hover .pb-1 p {
+    color: white;
+}
+
+.card img {
+    width: auto;
+    height: 580px;
+}
+
+.card-body {
+    cursor: pointer;
+}
+
+.card-title {
+    color: var(--bs-blue);
+}
+
+.pb-1 p {
+    font-size: 20px;
+    color: var(--bs-grey);
+}
+
+/* Root Colors */
+:root {
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-grey: #5d5a5a;
+}
