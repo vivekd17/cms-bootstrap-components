@@ -1,0 +1,52 @@
+.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1725px;
+}
+.card img{
+    height: 520px;
+}
+.card{
+    height: 660px;
+    --bs-card-spacer-y: 0.2rem;
+}
+.animation-icons{
+
+        opacity: 100;
+        visibility: hidden;
+        display: none;
+        margin-bottom: 78%;
+        padding: 128px 26px 96px 263px;
+        transform: translateY(-152%);
+        margin-top: -32%;
+}
+.card:hover .animation-icons{
+    opacity: 1;
+    display: block;
+    color: #7BC9FF;
+    visibility: visible;
+    background-color: #a80e0e8a; /* Set your desired background color */
+    transform: translateY(-100%);
+    transition: opacity 0.8s ease, visibility 0.3s ease;
+}
+/* .animation-icons {
+    border: 2px solid black;
+    padding: 115px 26px 107px 263px;
+    transform: translateY(-122%);
+    transition: opacity 0.8s ease, visibility 0.3s ease;
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 0; 
+    left: 0; 
+} */
+
+/* .card:hover .animation-icons {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    background: #00000069;
+    transition: opacity 0.8s ease-in, visibility 0.3s ease;
+
+} */
+/* .animation-icons:hover{
+    background-color: rgba(0, 0, 0, 0.456);
+} */
